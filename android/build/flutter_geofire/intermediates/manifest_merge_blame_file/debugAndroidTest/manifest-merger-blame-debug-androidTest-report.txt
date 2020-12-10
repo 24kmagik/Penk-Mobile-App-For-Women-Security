@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="in.appyflow.geofire.test" >
+4
+5    <uses-sdk
+5-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:5:42-71
+8
+9    <instrumentation
+9-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:11:5-15:74
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:11:22-76
+11        android:functionalTest="false"
+11-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:14:22-52
+12        android:handleProfiling="false"
+12-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:13:22-53
+13        android:label="Tests for in.appyflow.geofire.test"
+13-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:15:22-72
+14        android:targetPackage="in.appyflow.geofire.test" />
+14-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:12:22-70
+15
+16    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16-->[com.firebase:geofire-android:2.3.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\47690f8ce39fd369a0541499297b3078\geofire-android-2.3.1\AndroidManifest.xml:4:3-64
+16-->[com.firebase:geofire-android:2.3.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\47690f8ce39fd369a0541499297b3078\geofire-android-2.3.1\AndroidManifest.xml:4:20-62
+17    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-database:18.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\214a5a7e606f6079ad98543b664d2167\firebase-database-18.0.1\AndroidManifest.xml:25:5-79
+18-->[com.google.firebase:firebase-database:18.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\214a5a7e606f6079ad98543b664d2167\firebase-database-18.0.1\AndroidManifest.xml:25:22-76
+19
+20    <application
+20-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:7:5-9:19
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\50b2d82c8121d0d399c2a796a5c582ef\core-1.0.0\AndroidManifest.xml:22:18-86
+22        android:debuggable="true" >
+22-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:7:18-43
+23        <uses-library android:name="android.test.runner" />
+23-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:8:9-60
+23-->F:\Software\Flutter Projects\the_argus\android\build\flutter_geofire\intermediates\tmp\manifest\androidTest\debug\manifestMerger5435463568597275247.xml:8:23-57
+24
+25        <service
+25-->[com.google.firebase:firebase-database:18.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\214a5a7e606f6079ad98543b664d2167\firebase-database-18.0.1\AndroidManifest.xml:29:9-35:19
+26            android:name="com.google.firebase.components.ComponentDiscoveryService"
+26-->[com.google.firebase:firebase-database:18.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\214a5a7e606f6079ad98543b664d2167\firebase-database-18.0.1\AndroidManifest.xml:30:13-84
+27            android:exported="false" >
+27-->[com.google.firebase:firebase-database:18.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\214a5a7e606f6079ad98543b664d2167\firebase-database-18.0.1\AndroidManifest.xml:31:13-37
+28            <meta-data
+28-->[com.google.firebase:firebase-database:18.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\214a5a7e606f6079ad98543b664d2167\firebase-database-18.0.1\AndroidManifest.xml:32:13-34:85
+29                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+29-->[com.google.firebase:firebase-database:18.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\214a5a7e606f6079ad98543b664d2167\firebase-database-18.0.1\AndroidManifest.xml:33:17-109
+30                android:value="com.google.firebase.components.ComponentRegistrar" />
+30-->[com.google.firebase:firebase-database:18.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\214a5a7e606f6079ad98543b664d2167\firebase-database-18.0.1\AndroidManifest.xml:34:17-82
+31        </service>
+32
+33        <provider
+33-->[com.google.firebase:firebase-common:18.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d43617b7cda5f9a25304bcf3dab3c00f\firebase-common-18.0.0\AndroidManifest.xml:12:9-16:39
+34            android:name="com.google.firebase.provider.FirebaseInitProvider"
+34-->[com.google.firebase:firebase-common:18.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d43617b7cda5f9a25304bcf3dab3c00f\firebase-common-18.0.0\AndroidManifest.xml:13:13-77
+35            android:authorities="in.appyflow.geofire.test.firebaseinitprovider"
+35-->[com.google.firebase:firebase-common:18.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d43617b7cda5f9a25304bcf3dab3c00f\firebase-common-18.0.0\AndroidManifest.xml:14:13-72
+36            android:exported="false"
+36-->[com.google.firebase:firebase-common:18.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d43617b7cda5f9a25304bcf3dab3c00f\firebase-common-18.0.0\AndroidManifest.xml:15:13-37
+37            android:initOrder="100" />
+37-->[com.google.firebase:firebase-common:18.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d43617b7cda5f9a25304bcf3dab3c00f\firebase-common-18.0.0\AndroidManifest.xml:16:13-36
+38
+39        <activity
+39-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+40            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+40-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+41            android:exported="false"
+41-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+42            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+42-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\c423a4a4c865f1495e65a77f87be0907\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+43
+44        <meta-data
+44-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\fa434b5af7ce83ef0a6bf4144488343a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+45            android:name="com.google.android.gms.version"
+45-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\fa434b5af7ce83ef0a6bf4144488343a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+46            android:value="@integer/google_play_services_version" />
+46-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\fa434b5af7ce83ef0a6bf4144488343a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+47    </application>
+48
+49</manifest>

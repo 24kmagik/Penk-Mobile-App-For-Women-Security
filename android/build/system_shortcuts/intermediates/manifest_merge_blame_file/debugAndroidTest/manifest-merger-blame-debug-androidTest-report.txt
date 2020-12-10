@@ -1,0 +1,46 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.systemshortcuts.test" >
+4
+5    <uses-sdk
+5-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:5:42-71
+8
+9    <instrumentation
+9-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:11:5-15:82
+10        android:name="android.support.test.runner.AndroidJUnitRunner"
+10-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:11:22-83
+11        android:functionalTest="false"
+11-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:14:22-52
+12        android:handleProfiling="false"
+12-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:13:22-53
+13        android:label="Tests for com.example.systemshortcuts.test"
+13-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:15:22-80
+14        android:targetPackage="com.example.systemshortcuts.test" />
+14-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:12:22-78
+15
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[__tested_artifact__::system_shortcuts] F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-76
+16-->[__tested_artifact__::system_shortcuts] F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-73
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+17-->[__tested_artifact__::system_shortcuts] F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
+17-->[__tested_artifact__::system_shortcuts] F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->[__tested_artifact__::system_shortcuts] F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+18-->[__tested_artifact__::system_shortcuts] F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
+19    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+19-->[__tested_artifact__::system_shortcuts] F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-74
+19-->[__tested_artifact__::system_shortcuts] F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-71
+20
+21    <application android:debuggable="true" >
+21-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:7:5-9:19
+21-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:7:18-43
+22        <uses-library android:name="android.test.runner" />
+22-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:8:9-60
+22-->F:\Software\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\tmp\manifest\androidTest\debug\manifestMerger1435417325765244851.xml:8:23-57
+23    </application>
+24
+25</manifest>

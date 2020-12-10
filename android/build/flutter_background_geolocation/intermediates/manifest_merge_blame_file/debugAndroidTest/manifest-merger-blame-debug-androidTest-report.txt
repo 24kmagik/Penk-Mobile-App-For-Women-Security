@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.transistorsoft.flutter.backgroundgeolocation.test" >
+4
+5    <uses-sdk
+5-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:5:42-71
+8
+9    <instrumentation
+9-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:11:5-15:103
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:11:22-76
+11        android:functionalTest="false"
+11-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:14:22-52
+12        android:handleProfiling="false"
+12-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:13:22-53
+13        android:label="Tests for com.transistorsoft.flutter.backgroundgeolocation.test"
+13-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:15:22-101
+14        android:targetPackage="com.transistorsoft.flutter.backgroundgeolocation.test" />
+14-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:12:22-99
+15
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:3:5-67
+16-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:3:22-65
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:4:5-78
+17-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:4:22-76
+18    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+18-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:5:5-84
+18-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:5:22-82
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:6:5-80
+19-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:6:22-78
+20    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+20-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:7:5-78
+20-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:7:22-76
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:8:5-78
+21-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:8:22-76
+22    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+22-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:9:5-88
+22-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:9:22-86
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:10:5-66
+23-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:10:22-64
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:11:5-76
+24-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:11:22-74
+25    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+25-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:12:5-93
+25-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:12:22-91
+26    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+26-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:13:5-80
+26-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:13:22-78
+27    <uses-permission android:name="android.permission.GET_TASKS" />
+27-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:14:5-67
+27-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:14:22-65
+28
+29    <uses-feature
+29-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:15:5-90
+30        android:name="android.hardware.location.gps"
+30-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:15:19-63
+31        android:required="false" />
+31-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:15:64-88
+32
+33    <application
+33-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:7:5-9:19
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d856a2ad07d784cae061be131eb0ba9a\core-1.0.1\AndroidManifest.xml:22:18-86
+35        android:debuggable="true"
+35-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:7:18-43
+36        android:label="@string/app_name" >
+36-->[__tested_artifact__::flutter_background_geolocation] F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\library_manifest\debug\AndroidManifest.xml:7:18-50
+37        <uses-library android:name="android.test.runner" />
+37-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:8:9-60
+37-->F:\Software\Flutter Projects\the_argus\android\build\flutter_background_geolocation\intermediates\tmp\manifest\androidTest\debug\manifestMerger3079870857449619327.xml:8:23-57
+38
+39        <activity
+39-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:17:9-219
+40            android:name="com.transistorsoft.locationmanager.activity.TSLocationManagerActivity"
+40-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:17:19-103
+41            android:excludeFromRecents="true"
+41-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:17:104-137
+42            android:launchMode="singleInstance"
+42-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:17:138-173
+43            android:theme="@style/AppTheme.Transparent" />
+43-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:17:174-217
+44
+45        <service android:name="com.transistorsoft.locationmanager.service.TrackingService" />
+45-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:18:9-93
+45-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:18:18-91
+46        <service android:name="com.transistorsoft.locationmanager.service.LocationRequestService" />
+46-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:19:9-100
+46-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:19:18-98
+47        <service android:name="com.transistorsoft.locationmanager.service.HeartbeatService" />
+47-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:20:9-94
+47-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:20:18-92
+48        <service android:name="com.transistorsoft.locationmanager.service.ActivityRecognitionService" />
+48-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:21:9-104
+48-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:21:18-102
+49        <service android:name="com.transistorsoft.locationmanager.service.GeofencingService" />
+49-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:22:9-95
+49-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:22:18-93
+50        <service android:name="com.transistorsoft.locationmanager.service.BackgroundTaskService" />
+50-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:23:9-99
+50-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:23:18-97
+51
+52        <receiver android:name="com.transistorsoft.locationmanager.scheduler.ScheduleAlarmReceiver" />
+52-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:24:9-102
+52-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:24:19-100
+53
+54        <service android:name="com.transistorsoft.locationmanager.scheduler.ScheduleService" />
+54-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:25:9-95
+54-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:25:18-93
+55        <service
+55-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:26:9-179
+56            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleJobService"
+56-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:26:18-96
+57            android:exported="true"
+57-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:26:97-120
+58            android:permission="android.permission.BIND_JOB_SERVICE" />
+58-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:26:121-177
+59
+60        <receiver android:name="com.transistorsoft.locationmanager.BootReceiver" >
+60-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:27:9-32:20
+60-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:27:19-81
+61            <intent-filter>
+61-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:28:13-31:29
+62                <action android:name="android.intent.action.BOOT_COMPLETED" />
+62-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:29:17-78
+62-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:29:25-76
+63                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+63-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:30:17-83
+63-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:30:25-81
+64            </intent-filter>
+65        </receiver>
+66
+67        <provider
+67-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:33:9-35:20
+68            android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
+68-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:33:19-89
+69            android:authorities="com.transistorsoft.flutter.backgroundgeolocation.test.tslocationmanager.fileprovider"
+69-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:33:90-159
+70            android:exported="false"
+70-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:33:160-184
+71            android:grantUriPermissions="true" >
+71-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:33:185-219
+72            <meta-data
+72-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:34:13-137
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:34:24-74
+74                android:resource="@xml/tslocationmanager_file_provider_path" />
+74-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:34:75-135
+75        </provider>
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+81
+82        <meta-data
+82-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\298ec1314a7fdaab88a793f4110d5952\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+83            android:name="com.google.android.gms.version"
+83-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\298ec1314a7fdaab88a793f4110d5952\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+84            android:value="@integer/google_play_services_version" />
+84-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\298ec1314a7fdaab88a793f4110d5952\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+85
+86        <activity
+86-->[com.intentfilter:android-permissions:0.1.8] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d33121a0708c41787ad28b5e75463584\jetified-android-permissions-0.1.8\AndroidManifest.xml:12:9-15:59
+87            android:name="com.intentfilter.androidpermissions.PermissionsActivity"
+87-->[com.intentfilter:android-permissions:0.1.8] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d33121a0708c41787ad28b5e75463584\jetified-android-permissions-0.1.8\AndroidManifest.xml:13:13-83
+88            android:excludeFromRecents="true"
+88-->[com.intentfilter:android-permissions:0.1.8] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d33121a0708c41787ad28b5e75463584\jetified-android-permissions-0.1.8\AndroidManifest.xml:14:13-46
+89            android:theme="@style/AppTheme.Transparent" />
+89-->[com.intentfilter:android-permissions:0.1.8] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d33121a0708c41787ad28b5e75463584\jetified-android-permissions-0.1.8\AndroidManifest.xml:15:13-56
+90    </application>
+91
+92</manifest>

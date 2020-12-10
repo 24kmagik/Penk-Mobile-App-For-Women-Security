@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.firebase.cloudfirestore.test" >
+4
+5    <uses-sdk
+5-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:5:42-71
+8
+9    <instrumentation
+9-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:11:5-15:97
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:11:22-76
+11        android:functionalTest="false"
+11-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:14:22-52
+12        android:handleProfiling="false"
+12-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:13:22-53
+13        android:label="Tests for io.flutter.plugins.firebase.cloudfirestore.test"
+13-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:15:22-95
+14        android:targetPackage="io.flutter.plugins.firebase.cloudfirestore.test" />
+14-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:12:22-93
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\798b624646e74ffa5273e512d0db1eab\jetified-firebase-firestore-19.0.0\AndroidManifest.xml:13:5-79
+17-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\798b624646e74ffa5273e512d0db1eab\jetified-firebase-firestore-19.0.0\AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\798b624646e74ffa5273e512d0db1eab\jetified-firebase-firestore-19.0.0\AndroidManifest.xml:14:5-67
+18-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\798b624646e74ffa5273e512d0db1eab\jetified-firebase-firestore-19.0.0\AndroidManifest.xml:14:22-64
+19
+20    <application
+20-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:7:5-9:19
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\50b2d82c8121d0d399c2a796a5c582ef\core-1.0.0\AndroidManifest.xml:22:18-86
+22        android:debuggable="true" >
+22-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:7:18-43
+23        <uses-library android:name="android.test.runner" />
+23-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:8:9-60
+23-->F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\tmp\manifest\androidTest\debug\manifestMerger5567126018112013948.xml:8:23-57
+24
+25        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+25-->[__tested_artifact__::cloud_firestore] F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+25-->[__tested_artifact__::cloud_firestore] F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+26            <meta-data
+26-->[__tested_artifact__::cloud_firestore] F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+27                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+27-->[__tested_artifact__::cloud_firestore] F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+28                android:value="com.google.firebase.components.ComponentRegistrar" />
+28-->[__tested_artifact__::cloud_firestore] F:\Software\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+29            <meta-data
+29-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\798b624646e74ffa5273e512d0db1eab\jetified-firebase-firestore-19.0.0\AndroidManifest.xml:18:13-20:85
+30                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+30-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\798b624646e74ffa5273e512d0db1eab\jetified-firebase-firestore-19.0.0\AndroidManifest.xml:19:17-111
+31                android:value="com.google.firebase.components.ComponentRegistrar" />
+31-->[com.google.firebase:firebase-firestore:19.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\798b624646e74ffa5273e512d0db1eab\jetified-firebase-firestore-19.0.0\AndroidManifest.xml:20:17-82
+32        </service>
+33
+34        <activity
+34-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+35            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+35-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+36            android:exported="false"
+36-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+37            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+37-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+38
+39        <provider
+39-->[com.google.firebase:firebase-common:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\381798c201e59305fb29cc60199aa1d6\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+40            android:name="com.google.firebase.provider.FirebaseInitProvider"
+40-->[com.google.firebase:firebase-common:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\381798c201e59305fb29cc60199aa1d6\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+41            android:authorities="io.flutter.plugins.firebase.cloudfirestore.test.firebaseinitprovider"
+41-->[com.google.firebase:firebase-common:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\381798c201e59305fb29cc60199aa1d6\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+42            android:exported="false"
+42-->[com.google.firebase:firebase-common:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\381798c201e59305fb29cc60199aa1d6\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+43            android:initOrder="100" />
+43-->[com.google.firebase:firebase-common:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\381798c201e59305fb29cc60199aa1d6\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+44
+45        <meta-data
+45-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\55ccb6f4bd692b4381281b2f7196c986\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+46            android:name="com.google.android.gms.version"
+46-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\55ccb6f4bd692b4381281b2f7196c986\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+47            android:value="@integer/google_play_services_version" />
+47-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\55ccb6f4bd692b4381281b2f7196c986\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+48    </application>
+49
+50</manifest>

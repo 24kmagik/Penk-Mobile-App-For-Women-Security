@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.baseflow.location_permissions.test" >
+4
+5    <uses-sdk
+5-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:5:42-71
+8
+9    <instrumentation
+9-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:11:5-15:88
+10        android:name="com.android.test.runner.MultiDexTestRunner"
+10-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:11:22-79
+11        android:functionalTest="false"
+11-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:14:22-52
+12        android:handleProfiling="false"
+12-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:13:22-53
+13        android:label="Tests for com.baseflow.location_permissions.test"
+13-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:15:22-86
+14        android:targetPackage="com.baseflow.location_permissions.test" />
+14-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:12:22-84
+15
+16    <application
+16-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:7:5-9:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d856a2ad07d784cae061be131eb0ba9a\core-1.0.1\AndroidManifest.xml:22:18-86
+18        android:debuggable="true" >
+18-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:8:9-60
+19-->F:\Software\Flutter Projects\the_argus\android\build\location_permissions\intermediates\tmp\manifest\androidTest\debug\manifestMerger5134515365115424168.xml:8:23-57
+20    </application>
+21
+22</manifest>

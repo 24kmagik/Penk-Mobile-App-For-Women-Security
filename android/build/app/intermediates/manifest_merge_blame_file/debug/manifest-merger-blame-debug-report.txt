@@ -1,0 +1,577 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="example.com.argus.the_argus"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->[:location] F:\PROJECTS\Flutter Projects\the_argus\android\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+15-->[:location] F:\PROJECTS\Flutter Projects\the_argus\android\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->[:location] F:\PROJECTS\Flutter Projects\the_argus\android\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
+16-->[:location] F:\PROJECTS\Flutter Projects\the_argus\android\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->[:imei_plugin] F:\PROJECTS\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-75
+17-->[:imei_plugin] F:\PROJECTS\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-72
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+18-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+19-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->[:system_shortcuts] F:\PROJECTS\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-76
+20-->[:system_shortcuts] F:\PROJECTS\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-73
+21    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+21-->[:system_shortcuts] F:\PROJECTS\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
+21-->[:system_shortcuts] F:\PROJECTS\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->[:system_shortcuts] F:\PROJECTS\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+22-->[:system_shortcuts] F:\PROJECTS\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
+23    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+23-->[:system_shortcuts] F:\PROJECTS\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-74
+23-->[:system_shortcuts] F:\PROJECTS\Flutter Projects\the_argus\android\build\system_shortcuts\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-71
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:3:5-67
+24-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:3:22-65
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:4:5-78
+25-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:4:22-76
+26    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+26-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:5:5-84
+26-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:5:22-82
+27    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+27-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:7:5-78
+27-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:7:22-76
+28    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+28-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:9:5-88
+28-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:9:22-86
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+29-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:11:5-76
+29-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:11:22-74
+30    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+30-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:12:5-93
+30-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:12:22-91
+31    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+31-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:13:5-80
+31-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:13:22-78
+32    <uses-permission android:name="android.permission.GET_TASKS" />
+32-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:14:5-67
+32-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:14:22-65
+33
+34    <uses-feature
+34-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:15:5-90
+35        android:name="android.hardware.location.gps"
+35-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:15:19-63
+36        android:required="false" />
+36-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:15:64-88
+37    <uses-feature
+37-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\7bcf804a339ceb9c6955f16dcce483b3\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+38        android:glEsVersion="0x00020000"
+38-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\7bcf804a339ceb9c6955f16dcce483b3\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+39        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+39-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\7bcf804a339ceb9c6955f16dcce483b3\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+40    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+40-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+40-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+41    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+41-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:5-110
+41-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:22-107
+42
+43    <application
+43-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:6:5-48:19
+44        android:name="example.com.argus.the_argus.Application"
+44-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:7:9-36
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.0.2] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\cc2a7fe1307c699e1790aba65296177f\core-1.0.2\AndroidManifest.xml:22:18-86
+46        android:debuggable="true"
+47        android:icon="@mipmap/ic_launcher"
+47-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:8:9-43
+48        android:label="the_argus" >
+48-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:9:9-34
+49        <activity
+49-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:12:9-41:20
+50            android:name="example.com.argus.the_argus.MainActivity"
+50-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:13:13-41
+51            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+51-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:14:13-144
+52            android:hardwareAccelerated="true"
+52-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:15:13-47
+53            android:launchMode="singleTop"
+53-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:16:13-43
+54            android:theme="@style/LaunchTheme"
+54-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:17:13-47
+55            android:windowSoftInputMode="adjustResize" >
+55-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:18:13-55
+56
+57            <!--
+58                 This keeps the window background of the activity showing
+59                 until Flutter renders its first frame. It can be removed if
+60                 there is no splash screen (such as the default splash screen
+61                 defined in @style/LaunchTheme).
+62            -->
+63            <intent-filter>
+63-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:27:13-31:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:28:17-69
+64-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:28:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:30:17-77
+66-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:30:27-74
+67            </intent-filter>
+68            <intent-filter>
+68-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:32:13-36:29
+69                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+69-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:33:17-69
+69-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:33:25-66
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:35:17-76
+71-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:35:27-73
+72            </intent-filter>
+73
+74            <meta-data
+74-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:38:13-40:40
+75                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+75-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:39:17-82
+76                android:value="true" />
+76-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:40:17-37
+77        </activity>
+78
+79        <meta-data
+79-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:43:9-45:71
+80            android:name="com.google.android.geo.API_KEY"
+80-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:44:13-58
+81            android:value="AIzaSyDPIfyrWpXGe_daDV7LvN_bgJziL08DQz4" />
+81-->F:\PROJECTS\Flutter Projects\the_argus\android\app\src\main\AndroidManifest.xml:45:13-68
+82
+83        <service
+83-->[:cloud_firestore] F:\PROJECTS\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[:cloud_firestore] F:\PROJECTS\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\97ba2a7fe940ab4ba486aab773eee2fc\firebase-common-19.1.0\AndroidManifest.xml:14:13-43
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:35:13-37
+87            <meta-data
+87-->[:cloud_firestore] F:\PROJECTS\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+88-->[:cloud_firestore] F:\PROJECTS\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:cloud_firestore] F:\PROJECTS\Flutter Projects\the_argus\android\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+90            <meta-data
+90-->[:firebase_auth] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+91-->[:firebase_auth] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_auth] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+93            <meta-data
+93-->[:firebase_database] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+94-->[:firebase_database] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_database] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+96            <meta-data
+96-->[:firebase_storage] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+97-->[:firebase_storage] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:firebase_storage] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+99            <meta-data
+99-->[:firebase_messaging] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-16:85
+100                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+100-->[:firebase_messaging] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-127
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[:firebase_messaging] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-82
+102            <meta-data
+102-->[:firebase_core] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+103                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+103-->[:firebase_core] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:firebase_core] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+106                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+106-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-firestore:21.1.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\e90a43da7eae802241813578dc74a5c6\jetified-firebase-firestore-21.1.1\AndroidManifest.xml:20:13-22:85
+109                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+109-->[com.google.firebase:firebase-firestore:21.1.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\e90a43da7eae802241813578dc74a5c6\jetified-firebase-firestore-21.1.1\AndroidManifest.xml:21:17-111
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-firestore:21.1.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\e90a43da7eae802241813578dc74a5c6\jetified-firebase-firestore-21.1.1\AndroidManifest.xml:22:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-database:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\17cec60889de556f1129da6a81ba7b86\firebase-database-19.1.0\AndroidManifest.xml:32:13-34:85
+112                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+112-->[com.google.firebase:firebase-database:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\17cec60889de556f1129da6a81ba7b86\firebase-database-19.1.0\AndroidManifest.xml:33:17-109
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-database:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\17cec60889de556f1129da6a81ba7b86\firebase-database-19.1.0\AndroidManifest.xml:34:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\62b4930305379d7a5af89a935ec58491\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+115                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+115-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\62b4930305379d7a5af89a935ec58491\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\62b4930305379d7a5af89a935ec58491\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-ml-natural-language:19.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4c0de99947d18f18a22ee739a3bb7f07\jetified-firebase-ml-natural-language-19.0.1\AndroidManifest.xml:12:13-14:85
+118                android:name="com.google.firebase.components:com.google.firebase.ml.naturallanguage.NaturalLanguageRegistrar"
+118-->[com.google.firebase:firebase-ml-natural-language:19.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4c0de99947d18f18a22ee739a3bb7f07\jetified-firebase-ml-natural-language-19.0.1\AndroidManifest.xml:13:17-126
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-ml-natural-language:19.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4c0de99947d18f18a22ee739a3bb7f07\jetified-firebase-ml-natural-language-19.0.1\AndroidManifest.xml:14:17-82
+120            <meta-data
+120-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\469afebd32d17f6a2a137aa73963fc48\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
+121                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+121-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\469afebd32d17f6a2a137aa73963fc48\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\469afebd32d17f6a2a137aa73963fc48\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-config:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\a595cd7666d197100dda5f03af2e4a98\jetified-firebase-config-17.0.0\AndroidManifest.xml:9:13-11:85
+124                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+124-->[com.google.firebase:firebase-config:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\a595cd7666d197100dda5f03af2e4a98\jetified-firebase-config-17.0.0\AndroidManifest.xml:10:17-117
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-config:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\a595cd7666d197100dda5f03af2e4a98\jetified-firebase-config-17.0.0\AndroidManifest.xml:11:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+127                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+127-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-abt:17.1.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\0e9fac5850442ee51fd240b5d3e038be\jetified-firebase-abt-17.1.1\AndroidManifest.xml:9:13-11:85
+130                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+130-->[com.google.firebase:firebase-abt:17.1.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\0e9fac5850442ee51fd240b5d3e038be\jetified-firebase-abt-17.1.1\AndroidManifest.xml:10:17-109
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-abt:17.1.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\0e9fac5850442ee51fd240b5d3e038be\jetified-firebase-abt-17.1.1\AndroidManifest.xml:11:17-82
+132        </service>
+133
+134        <provider
+134-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+135            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+135-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+136            android:authorities="example.com.argus.the_argus.flutter.image_provider"
+136-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+137            android:exported="false"
+137-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+138            android:grantUriPermissions="true" >
+138-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+139            <meta-data
+139-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+140                android:name="android.support.FILE_PROVIDER_PATHS"
+140-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+141                android:resource="@xml/flutter_image_picker_file_paths" />
+141-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+142        </provider>
+143
+144        <activity
+144-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:17:9-219
+145            android:name="com.transistorsoft.locationmanager.activity.TSLocationManagerActivity"
+145-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:17:19-103
+146            android:excludeFromRecents="true"
+146-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:17:104-137
+147            android:launchMode="singleInstance"
+147-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:17:138-173
+148            android:theme="@style/AppTheme.Transparent" />
+148-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:17:174-217
+149
+150        <service android:name="com.transistorsoft.locationmanager.service.TrackingService" />
+150-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:18:9-93
+150-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:18:18-91
+151        <service android:name="com.transistorsoft.locationmanager.service.LocationRequestService" />
+151-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:19:9-100
+151-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:19:18-98
+152        <service android:name="com.transistorsoft.locationmanager.service.HeartbeatService" />
+152-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:20:9-94
+152-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:20:18-92
+153        <service android:name="com.transistorsoft.locationmanager.service.ActivityRecognitionService" />
+153-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:21:9-104
+153-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:21:18-102
+154        <service android:name="com.transistorsoft.locationmanager.service.GeofencingService" />
+154-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:22:9-95
+154-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:22:18-93
+155        <service android:name="com.transistorsoft.locationmanager.service.BackgroundTaskService" />
+155-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:23:9-99
+155-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:23:18-97
+156
+157        <receiver android:name="com.transistorsoft.locationmanager.scheduler.ScheduleAlarmReceiver" />
+157-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:24:9-102
+157-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:24:19-100
+158
+159        <service android:name="com.transistorsoft.locationmanager.scheduler.ScheduleService" />
+159-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:25:9-95
+159-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:25:18-93
+160        <service
+160-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:26:9-179
+161            android:name="com.transistorsoft.locationmanager.scheduler.ScheduleJobService"
+161-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:26:18-96
+162            android:exported="true"
+162-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:26:97-120
+163            android:permission="android.permission.BIND_JOB_SERVICE" />
+163-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:26:121-177
+164
+165        <receiver android:name="com.transistorsoft.locationmanager.BootReceiver" >
+165-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:27:9-32:20
+165-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:27:19-81
+166            <intent-filter>
+166-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:28:13-31:29
+167                <action android:name="android.intent.action.BOOT_COMPLETED" />
+167-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:29:17-78
+167-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:29:25-76
+168                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+168-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:30:17-83
+168-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:30:25-81
+169            </intent-filter>
+170        </receiver>
+171
+172        <provider
+172-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:33:9-35:20
+173            android:name="com.transistorsoft.locationmanager.util.LogFileProvider"
+173-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:33:19-89
+174            android:authorities="example.com.argus.the_argus.tslocationmanager.fileprovider"
+174-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:33:90-159
+175            android:exported="false"
+175-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:33:160-184
+176            android:grantUriPermissions="true" >
+176-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:33:185-219
+177            <meta-data
+177-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+178                android:name="android.support.FILE_PROVIDER_PATHS"
+178-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+179                android:resource="@xml/tslocationmanager_file_provider_path" />
+179-->[:image_picker] F:\PROJECTS\Flutter Projects\the_argus\android\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+180        </provider>
+181
+182        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+182-->[:firebase_messaging] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+182-->[:firebase_messaging] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-101
+183            <intent-filter>
+183-->[:firebase_messaging] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+184                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+184-->[:firebase_messaging] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+184-->[:firebase_messaging] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+185            </intent-filter>
+186        </service> <!-- HeadlessJS For android sdk 21+ uses new JobScheduler API -->
+187        <service
+187-->[:background_fetch] F:\PROJECTS\Flutter Projects\the_argus\android\build\background_fetch\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-13:72
+188            android:name="com.transistorsoft.flutter.backgroundfetch.HeadlessJobService"
+188-->[:background_fetch] F:\PROJECTS\Flutter Projects\the_argus\android\build\background_fetch\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-89
+189            android:exported="true"
+189-->[:background_fetch] F:\PROJECTS\Flutter Projects\the_argus\android\build\background_fetch\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-36
+190            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- HeadlessJS For Android sdk <21 uses old AlarmManager API -->
+190-->[:background_fetch] F:\PROJECTS\Flutter Projects\the_argus\android\build\background_fetch\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-69
+191        <receiver android:name="com.transistorsoft.flutter.backgroundfetch.HeadlessBroadcastReceiver" >
+191-->[:background_fetch] F:\PROJECTS\Flutter Projects\the_argus\android\build\background_fetch\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-19:20
+191-->[:background_fetch] F:\PROJECTS\Flutter Projects\the_argus\android\build\background_fetch\intermediates\library_manifest\debug\AndroidManifest.xml:15:19-102
+192            <intent-filter>
+192-->[:background_fetch] F:\PROJECTS\Flutter Projects\the_argus\android\build\background_fetch\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:29
+193                <action android:name="example.com.argus.the_argus.event.BACKGROUND_FETCH" />
+193-->[:background_fetch] F:\PROJECTS\Flutter Projects\the_argus\android\build\background_fetch\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-82
+193-->[:background_fetch] F:\PROJECTS\Flutter Projects\the_argus\android\build\background_fetch\intermediates\library_manifest\debug\AndroidManifest.xml:17:25-79
+194            </intent-filter>
+195        </receiver>
+196        <receiver android:name="com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver" />
+196-->[tsbackgroundfetch-0.3.3.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\1663c6459b870300edc7c8a3643993f2\tsbackgroundfetch-0.3.3\AndroidManifest.xml:15:9-92
+196-->[tsbackgroundfetch-0.3.3.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\1663c6459b870300edc7c8a3643993f2\tsbackgroundfetch-0.3.3\AndroidManifest.xml:15:19-89
+197
+198        <service
+198-->[tsbackgroundfetch-0.3.3.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\1663c6459b870300edc7c8a3643993f2\tsbackgroundfetch-0.3.3\AndroidManifest.xml:17:9-20:72
+199            android:name="com.transistorsoft.tsbackgroundfetch.FetchJobService"
+199-->[tsbackgroundfetch-0.3.3.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\1663c6459b870300edc7c8a3643993f2\tsbackgroundfetch-0.3.3\AndroidManifest.xml:18:13-80
+200            android:exported="true"
+200-->[tsbackgroundfetch-0.3.3.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\1663c6459b870300edc7c8a3643993f2\tsbackgroundfetch-0.3.3\AndroidManifest.xml:19:13-36
+201            android:permission="android.permission.BIND_JOB_SERVICE" />
+201-->[tsbackgroundfetch-0.3.3.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\1663c6459b870300edc7c8a3643993f2\tsbackgroundfetch-0.3.3\AndroidManifest.xml:20:13-69
+202
+203        <receiver android:name="com.transistorsoft.tsbackgroundfetch.BootReceiver" >
+203-->[tsbackgroundfetch-0.3.3.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\1663c6459b870300edc7c8a3643993f2\tsbackgroundfetch-0.3.3\AndroidManifest.xml:22:9-27:20
+203-->[tsbackgroundfetch-0.3.3.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\1663c6459b870300edc7c8a3643993f2\tsbackgroundfetch-0.3.3\AndroidManifest.xml:22:19-83
+204            <intent-filter>
+204-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:28:13-31:29
+205                <action android:name="android.intent.action.BOOT_COMPLETED" />
+205-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:29:17-78
+205-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:29:25-76
+206                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+206-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:30:17-83
+206-->[tslocationmanager-3.0.30.aar] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\b44fafff3c2bf459416239eee8d0ce72\jetified-tslocationmanager-3.0.30\AndroidManifest.xml:30:25-81
+207            </intent-filter>
+208        </receiver>
+209
+210        <activity
+210-->[:url_launcher] F:\PROJECTS\Flutter Projects\the_argus\android\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+211            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+211-->[:url_launcher] F:\PROJECTS\Flutter Projects\the_argus\android\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+212            android:exported="false"
+212-->[:url_launcher] F:\PROJECTS\Flutter Projects\the_argus\android\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+213            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+213-->[:url_launcher] F:\PROJECTS\Flutter Projects\the_argus\android\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+214        <activity
+214-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+215            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+215-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+216            android:excludeFromRecents="true"
+216-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+217            android:exported="true"
+217-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+218            android:launchMode="singleTask"
+218-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+219            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+219-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+220            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+220-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\4bf5ad23fb8b48603baac97e97e245fe\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+221        <activity
+221-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\3a22125ff782ed38fb1bb2aca313f837\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+222            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+222-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\3a22125ff782ed38fb1bb2aca313f837\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+223            android:excludeFromRecents="true"
+223-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\3a22125ff782ed38fb1bb2aca313f837\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+224            android:exported="false"
+224-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\3a22125ff782ed38fb1bb2aca313f837\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+225            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+225-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\3a22125ff782ed38fb1bb2aca313f837\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+226        <!--
+227            Service handling Google Sign-In user revocation. For apps that do not integrate with
+228            Google Sign-In, this service will never be started.
+229        -->
+230        <service
+230-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\3a22125ff782ed38fb1bb2aca313f837\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+231            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+231-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\3a22125ff782ed38fb1bb2aca313f837\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+232            android:exported="true"
+232-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\3a22125ff782ed38fb1bb2aca313f837\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+233            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+233-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\3a22125ff782ed38fb1bb2aca313f837\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+234        <uses-library
+234-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\7bcf804a339ceb9c6955f16dcce483b3\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+235            android:name="org.apache.http.legacy"
+235-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\7bcf804a339ceb9c6955f16dcce483b3\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+236            android:required="false" />
+236-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\7bcf804a339ceb9c6955f16dcce483b3\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+237        <!--
+238             FirebaseMessagingService performs security checks at runtime,
+239             but set to not exported to explicitly avoid allowing another app to call it.
+240        -->
+241        <service
+241-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\c57ec92cdf23b4ef257ed75c29ea14b4\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+242            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+242-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\c57ec92cdf23b4ef257ed75c29ea14b4\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+243            android:exported="false" >
+243-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\c57ec92cdf23b4ef257ed75c29ea14b4\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+244            <intent-filter android:priority="-500" >
+244-->[:firebase_messaging] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+245                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+245-->[:firebase_messaging] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+245-->[:firebase_messaging] F:\PROJECTS\Flutter Projects\the_argus\android\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+246            </intent-filter>
+247        </service>
+248
+249        <receiver
+249-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+250            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+250-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+251            android:exported="true"
+251-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+252            android:permission="com.google.android.c2dm.permission.SEND" >
+252-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+253            <intent-filter>
+253-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+254                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+254-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+254-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\aa4ebb7d1bb0dd10b284b199d14a2e0d\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+255            </intent-filter>
+256        </receiver>
+257
+258        <activity
+258-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+259            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+259-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+260            android:exported="false"
+260-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+261            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+261-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\c6ed24259e187418524151309c91ad64\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+262
+263        <provider
+263-->[com.google.firebase:firebase-common:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\97ba2a7fe940ab4ba486aab773eee2fc\firebase-common-19.1.0\AndroidManifest.xml:17:9-21:39
+264            android:name="com.google.firebase.provider.FirebaseInitProvider"
+264-->[com.google.firebase:firebase-common:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\97ba2a7fe940ab4ba486aab773eee2fc\firebase-common-19.1.0\AndroidManifest.xml:18:13-77
+265            android:authorities="example.com.argus.the_argus.firebaseinitprovider"
+265-->[com.google.firebase:firebase-common:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\97ba2a7fe940ab4ba486aab773eee2fc\firebase-common-19.1.0\AndroidManifest.xml:19:13-72
+266            android:exported="false"
+266-->[com.google.firebase:firebase-common:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\97ba2a7fe940ab4ba486aab773eee2fc\firebase-common-19.1.0\AndroidManifest.xml:20:13-37
+267            android:initOrder="100" />
+267-->[com.google.firebase:firebase-common:19.1.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\97ba2a7fe940ab4ba486aab773eee2fc\firebase-common-19.1.0\AndroidManifest.xml:21:13-36
+268
+269        <receiver
+269-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
+270            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+270-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+271            android:enabled="true"
+271-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
+272            android:exported="false" >
+272-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
+273        </receiver>
+274        <receiver
+274-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
+275            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+275-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
+276            android:enabled="true"
+276-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
+277            android:exported="true"
+277-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
+278            android:permission="android.permission.INSTALL_PACKAGES" >
+278-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
+279            <intent-filter>
+279-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+280                <action android:name="com.android.vending.INSTALL_REFERRER" />
+280-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+280-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+281            </intent-filter>
+282        </receiver>
+283
+284        <service
+284-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
+285            android:name="com.google.android.gms.measurement.AppMeasurementService"
+285-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
+286            android:enabled="true"
+286-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
+287            android:exported="false" />
+287-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+288        <service
+288-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
+289            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+289-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
+290            android:enabled="true"
+290-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
+291            android:exported="false"
+291-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
+292            android:permission="android.permission.BIND_JOB_SERVICE" />
+292-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\25cd228b7a14dcec7bc9c5531ace8657\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
+293
+294        <meta-data
+294-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\fa434b5af7ce83ef0a6bf4144488343a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+295            android:name="com.google.android.gms.version"
+295-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\fa434b5af7ce83ef0a6bf4144488343a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+296            android:value="@integer/google_play_services_version" />
+296-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\fa434b5af7ce83ef0a6bf4144488343a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+297
+298        <activity
+298-->[com.intentfilter:android-permissions:0.1.8] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d33121a0708c41787ad28b5e75463584\jetified-android-permissions-0.1.8\AndroidManifest.xml:12:9-15:59
+299            android:name="com.intentfilter.androidpermissions.PermissionsActivity"
+299-->[com.intentfilter:android-permissions:0.1.8] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d33121a0708c41787ad28b5e75463584\jetified-android-permissions-0.1.8\AndroidManifest.xml:13:13-83
+300            android:excludeFromRecents="true"
+300-->[com.intentfilter:android-permissions:0.1.8] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d33121a0708c41787ad28b5e75463584\jetified-android-permissions-0.1.8\AndroidManifest.xml:14:13-46
+301            android:theme="@style/AppTheme.Transparent" />
+301-->[com.intentfilter:android-permissions:0.1.8] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\d33121a0708c41787ad28b5e75463584\jetified-android-permissions-0.1.8\AndroidManifest.xml:15:13-56
+302    </application>
+303
+304</manifest>

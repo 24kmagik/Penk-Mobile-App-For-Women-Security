@@ -1,0 +1,40 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rioapp.demo.imeiplugin.test" >
+4
+5    <uses-sdk
+5-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:5:42-71
+8
+9    <instrumentation
+9-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:11:5-15:81
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:11:22-76
+11        android:functionalTest="false"
+11-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:14:22-52
+12        android:handleProfiling="false"
+12-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:13:22-53
+13        android:label="Tests for com.rioapp.demo.imeiplugin.test"
+13-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:15:22-79
+14        android:targetPackage="com.rioapp.demo.imeiplugin.test" />
+14-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:12:22-77
+15
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->[__tested_artifact__::imei_plugin] F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-75
+16-->[__tested_artifact__::imei_plugin] F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-72
+17
+18    <application
+18-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:7:5-9:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\50b2d82c8121d0d399c2a796a5c582ef\core-1.0.0\AndroidManifest.xml:22:18-86
+20        android:debuggable="true" >
+20-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:7:18-43
+21        <uses-library android:name="android.test.runner" />
+21-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:8:9-60
+21-->F:\Software\Flutter Projects\the_argus\android\build\imei_plugin\intermediates\tmp\manifest\androidTest\debug\manifestMerger3308072450421441396.xml:8:23-57
+22    </application>
+23
+24</manifest>

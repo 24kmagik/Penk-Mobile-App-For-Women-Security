@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lyokone.location.test" >
+4
+5    <uses-sdk
+5-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:5:42-71
+8
+9    <instrumentation
+9-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:11:5-15:75
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:11:22-76
+11        android:functionalTest="false"
+11-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:14:22-52
+12        android:handleProfiling="false"
+12-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:13:22-53
+13        android:label="Tests for com.lyokone.location.test"
+13-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:15:22-73
+14        android:targetPackage="com.lyokone.location.test" />
+14-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:12:22-71
+15
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->[__tested_artifact__::location] F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+16-->[__tested_artifact__::location] F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->[__tested_artifact__::location] F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
+17-->[__tested_artifact__::location] F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
+18
+19    <application
+19-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:7:5-9:19
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.0] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\50b2d82c8121d0d399c2a796a5c582ef\core-1.0.0\AndroidManifest.xml:22:18-86
+21        android:debuggable="true" >
+21-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:7:18-43
+22        <uses-library android:name="android.test.runner" />
+22-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:8:9-60
+22-->F:\Software\Flutter Projects\the_argus\android\build\location\intermediates\tmp\manifest\androidTest\debug\manifestMerger255258880127636903.xml:8:23-57
+23
+24        <activity
+24-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+25            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+25-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+26            android:exported="false"
+26-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+27            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+27-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\750bc86d5147ca6d1717e37818393825\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+28
+29        <meta-data
+29-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\298ec1314a7fdaab88a793f4110d5952\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+30            android:name="com.google.android.gms.version"
+30-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\298ec1314a7fdaab88a793f4110d5952\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+31            android:value="@integer/google_play_services_version" />
+31-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\karth\.gradle\caches\transforms-2\files-2.1\298ec1314a7fdaab88a793f4110d5952\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+32    </application>
+33
+34</manifest>
